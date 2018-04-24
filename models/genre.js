@@ -14,5 +14,5 @@ BookGenreSchema
         return '/catalog/bookgenre/' + this._id;
     });
 
-module.exports = mongoose.model('BookGenre', BookGenreSchema);
+module.exports = mongoose.model("Genre", BookGenreSchema);
     
